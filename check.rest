@@ -1,0 +1,23 @@
+GET http://localhost:5000/admin/employeesDetails?page=1&limit=5
+
+###
+PUT http://localhost:5000/admin/604f6fe4b696e12f7886bf66
+Content-Type: application/json
+
+{
+    "name":"Bhupendra",
+    "role":"developer",
+    "location":"India",
+    "active":"true"
+}
+
+###
+POST http://localhost:5000/admin/employees
+Content-Type: application/json
+
+{
+    "name":"Indra55@",
+    "role":"developer",
+    "location":"India",
+    "active":"true"
+}
