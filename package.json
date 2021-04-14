@@ -8,6 +8,8 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     
   },
   "repository": {
@@ -47,4 +49,5 @@
     "@testing-library/user-event": "^12.8.3",
     "react-test-renderer": "^17.0.1"
   }
+    "homepage": "https://Bhupendrasimha.github.io/stylex01"
 }
